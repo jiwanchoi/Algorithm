@@ -43,4 +43,13 @@ Empty
 </tbody>
       </table>
 
+-----------------------
+
+다른 풀이 방법 => reduce함수는 배열의 각 요소를 순회하며 callback함수의 실행 값을 누적하여 하나의 결과값을 반환 합니다.
+
+```
+function average(array){
+  return array.reduce((a,b) => a+b) / array.length;
+}
+```
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
