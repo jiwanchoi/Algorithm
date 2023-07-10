@@ -43,4 +43,12 @@ Empty
 </tbody>
       </table>
 
+-----
+
+다른 문제 풀이 => 삼항연산자를 사용하여 간결하게 코드를 짤 수 있다.
+```
+function evenOrOdd(num) {
+  return num % 2 ? "Odd" : "Even"
+}
+```
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
