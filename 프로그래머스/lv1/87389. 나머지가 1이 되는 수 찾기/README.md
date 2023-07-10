@@ -60,8 +60,8 @@ Empty
 <ul>
 <li>12를 11로 나눈 나머지가 1이고, 11보다 작은 자연수 중에서 문제의 조건을 만족하는 수가 없으므로, 11을 return 해야 합니다.</li>
 </ul>
------
 
+```
 function solution(n, x = 1) {    
     while (x++) {
         if (n % x === 1) {
@@ -69,5 +69,6 @@ function solution(n, x = 1) {
         }
     }    
 }
+```
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
