@@ -74,6 +74,11 @@ Empty
 <li>signs가 <code>[false,false,true]</code> 이므로, 실제 수들의 값은 각각 -1, -2, 3입니다.</li>
 <li>따라서 세 수의 합인 0을 return 해야 합니다.</li>
 </ul>
+-------
+
+function solution(absolutes, signs) {
+      return absolutes.reduce((acc, cur, idx) => (signs[idx] ? acc + cur : acc - cur),0);
+}
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
