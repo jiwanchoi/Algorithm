@@ -12,5 +12,4 @@ for (let i = 1; i < input; i++) {
     break;
   }
 }
-count=(input==1)?1:count;
-console.log(count);
+console.log(count=(input==1)?1:count);
